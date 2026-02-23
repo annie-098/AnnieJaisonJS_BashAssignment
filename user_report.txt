@@ -1,0 +1,113 @@
+=== USER STATISTICS ===
+Total Users: 63
+System Users (UID < 1000): 61
+Regular Users (UID >= 1000): 2
+Currently Logged In: 1
+
+=== REGULAR USER DETAILS ===
+Username     UID    Home Directory       Shell               
+--------     ---    --------------       -----               
+nobody       65534  /nonexistent         /usr/sbin/nologin   
+annie_20     1000   /home/annie_20       /usr/bin/zsh        
+
+=== GROUP INFORMATION ===
+root
+daemon
+bin
+sys
+adm
+tty
+disk
+lp
+mail
+news
+uucp
+man
+proxy
+kmem
+dialout
+fax
+voice
+cdrom
+floppy
+tape
+sudo
+audio
+dip
+www-data
+backup
+operator
+list
+irc
+src
+shadow
+utmp
+video
+sasl
+plugdev
+staff
+games
+users
+nogroup
+systemd-journal
+systemd-network
+crontab
+input
+sgx
+kvm
+render
+netdev
+mysql
+tss
+systemd-timesync
+redsocks
+kismet
+_gophish
+messagebus
+_ssh
+ssl-cert
+redis
+plocate
+mosquitto
+wireshark
+tcpdump
+rdma
+bluetooth
+i2c
+avahi
+stunnel4
+Debian-snmp
+_gvm
+sslh
+postgres
+pulse
+pulse-access
+sambashare
+inetsim
+lightdm
+geoclue
+pipewire
+scanner
+saned
+polkitd
+rtkit
+colord
+nm-openvpn
+nm-openconnect
+kali-trusted
+annie_20
+kaboxer
+strange
+st
+winbindd_priv
+Debian-exim
+_bloodhound
+lpadmin
+clock
+speech-dispatcher
+pcscd
+
+=== SECURITY ALERTS ===
+Users with root privileges (UID 0): 1
+ - root
+All users have passwords set
