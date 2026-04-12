@@ -1,0 +1,91 @@
+Task 3.1: Network Concepts
+
+1. OSI Model
+
+7 Layers of OSI Model:
+Physical Layer
+Data Link Layer
+Network Layer
+Transport Layer
+Session Layer
+Presentation Layer
+Application Layer
+
+
+Example Protocols for Each Layer:
+Layer	        Protocol Example
+Physical	Ethernet (cables, signals)
+Data Link	MAC, ARP
+Network	        IP (Internet Protocol)
+Transport	TCP, UDP
+Session	        NetBIOS
+Presentation	SSL/TLS
+Application	HTTP, FTP, DNS
+
+
+Which Layer TCP Operates At?
+TCP operates at the Transport Layer (Layer 4)
+Provides reliable communication
+Handles error checking and data delivery
+
+
+2. IP Addressing
+
+Difference Between Public and Private IP
+Public IP	                Private IP
+Accessible over internet	Used inside local network
+Unique globally	                Reused in different networks
+Assigned by ISP	                Assigned by router
+
+
+Private IP Ranges
+Class	  Range
+Class A	  10.0.0.0 – 10.255.255.255
+Class B	  172.16.0.0 – 172.31.255.255
+Class C	  192.168.0.0 – 192.168.255.255
+
+
+Is 192.168.1.100 Public or Private?
+It is a Private IP Address
+
+3. Protocols
+
+Match Ports to Services
+
+Port	Service
+22	SSH
+80	HTTP
+443	HTTPS
+3306	MySQL
+
+
+Difference Between TCP and UDP
+TCP	                        UDP
+Connection-oriented	        Connectionless
+Reliable (guarantees delivery)	Faster but unreliable
+Error checking	                No guarantee of delivery
+Used in HTTP, FTP	        Used in DNS, streaming
+
+
+What is NAT?
+NAT (Network Address Translation) converts private IP addresses into a public IP.
+Why NAT is Needed:
+Saves public IP addresses
+Adds security (internal IP hidden)
+Allows multiple devices to share one internet connection
+
+
+
+Task 3.2: Practical Network Analysis
+
+• Your IP address
+IPv4 address is 192.168.1.12
+
+• Your default gateway
+Your default gateway is 192.168.1.1.
+
+• Your DNS servers
+Mechanism: proto dhcp, means your router (the gateway) likely assigned your DNS settings automatically via DHCP.
+
+• Number of hops to reach google.com
+It took 10 hops to reach the final destination.

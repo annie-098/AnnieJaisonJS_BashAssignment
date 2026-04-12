@@ -1,0 +1,7 @@
+Scanning Target: 127.0.0.1
+---------------------------------
+Port 22: CLOSED
+Port 80: OPEN
+Port 443: CLOSED
+---------------------------------
+Scan Duration: 0.01 seconds

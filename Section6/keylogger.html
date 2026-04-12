@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Keylogger Demo</title>
+</head>
+<body>
+<h2>Keylogger Demo</h2>
+<input type="text" id="box" placeholder="Type here">
+<p id="out"></p>
+<script>
+document.addEventListener("keydown",function(e){
+document.getElementById("out").innerHTML+=e.key+" ";
+});
+/*
+SECURITY:
+- Captures everything typed (including passwords)
+- Attackers can steal sensitive data
+- Real keyloggers send data to hackers
+
+PREVENTION:
+- Use HTTPS websites
+- Avoid unknown links
+- Use browser security tools
+*/
+</script>
+</body>
+</html>

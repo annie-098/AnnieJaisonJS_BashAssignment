@@ -1,0 +1,29 @@
+1. List all files (including hidden) in long format with human-readable sizes
+ls -lah
+
+2. Find all .txt files in your home directory and subdirectories
+find ~ -type f -name "*.txt"
+
+3. Display the last 20 lines of a file called scan_results.txt
+tail -n 20 scan_results.txt
+
+4. Count how many lines contain the word "OPEN" in scan_results.txt
+grep -c "OPEN" scan_results.txt
+
+5. Create a directory structure: security/tools/scanners
+mkdir -p security/tools/scanners
+
+6. Change permissions of exploit.sh to make it executable by everyone
+chmod +x exploit.sh
+
+7. Display current user, hostname, and current directory path
+whoami && hostname && pwd
+
+8. Find all files modified in the last 7 days
+find . -type f -mtime -7
+
+9. Search for the word "password" in all files in current directory
+grep -r "password" .
+
+10. Display system information (kernel version, OS, architecture)
+uname -a
